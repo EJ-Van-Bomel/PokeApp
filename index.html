@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon Pics App</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Roboto+Mono:wght@100&family=Rubik+Iso&display=swap');
+        </style>
+</head>
+<body>
+    <h1>Select a Pokemon</h1>
+
+    <div id="select-div">
+    <label for="name"></label>
+    <select name="name" id="pokemon">
+        <option value="bulbasaur">Bulbasaur</option>
+        <option value="ivysaur">Ivysaur</option>
+        <option value="venusaur">Venusaur</option>
+        <option value="charmander">Charmander</option>
+        <option value="charmeleon">Charmeleon</option>
+        <option value="charizard">Charizard</option>
+        <option value="squirtle">Squirtle</option>
+        <option value="wartortle">Wartortle</option>
+        <option value="blastoise">Blastoise</option>
+        <option value="caterpie">Caterpie</option>
+        <option value="metapod">Metapod</option>
+        <option value="butterfree">Butterfree</option>
+        <option value="weedle">Weedle</option>
+        <option value="kakuna">Kakuna</option>
+        <option value="beedrill">Beedrill</option>
+        <option value="pidgey">Pidgey</option>
+        <option value="pidgeotto">Pidgeotto</option>
+        <option value="pidgeot">Pidgeot</option>
+        <option value="rattata">Rattata</option>
+        <option value="raticate">Raticate</option>
+    </select>
+
+
+    <button type="submit" id="getpoke">GO!</button>
+
+</div>
+
+<div id="image-grid"></div>
+
+
+<h2>Choose an Item</h2>
+
+
+<div id="item-div">
+
+    <label for="item"></label>
+    <select name="item" id="item-select">
+        <option value="master-ball">Master Ball</option>
+        <option value="ultra-ball">Ultra Ball</option>
+        <option value="great-ball">Great Ball</option>
+        <option value="poke-ball">Poke Ball</option>
+        <option value="safari-ball">Safari Ball</option>
+        <option value="net-ball">Net Ball</option>
+        <option value="dive-ball">Dive Ball</option>
+        <option value="nest-ball">Nest Ball</option>
+        <option value="repeat-ball">Repeat Ball</option>
+        <option value="timer-ball">Timer Ball</option>
+        <option value="luxury-ball">Luxury Ball</option>
+        <option value="premier-ball">Premier Ball</option>
+        <option value="dusk-ball">Dusk Ball</option>
+        <option value="heal-ball">Heal Ball</option>
+        <option value="quick-ball">Quick Ball</option>
+        <option value="cherish-ball">Cherish Ball</option>
+        <option value="potion">Potion</option>
+        <option value="antidote">Antidote</option>
+        <option value="burn-heal">Burn Heal</option>
+        <option value="ice-heal">Ice Heal</option>
+        
+    </select>
+
+    <button id="item-btn">Get Item!
+    </button>
+</div>
+
+<div id="item-grid"></div>
+
+<h3>Choose a Location</h3>
+
+<div id="location-div">
+    <label for="location"></label>
+    <select name="location" id="location-select">
+        <option value="canalave-city">Canalave City</option>
+        <option value="eterna-city">Eterna City</option>
+        <option value="pastoria-city">Pastoria City</option>
+        <option value="sunyshore-city">Sunyshore City</option>
+        <option value="sinnoh-pokemon-league">Sinnoh Pokemon League</option>
+        <option value="oreburgh-mine">Oreburgh Mine</option>
+        <option value="valley-windworks">Valley Windworks</option>
+        <option value="eterna-forest">Eterna Forest</option>
+        <option value="fuego-ironworks">Fuego Ironworks</option>
+        <option value="mt-coronet">Mt Coronet</option>
+        <option value="great-marsh">Great Marsh</option>
+        <option value="solaceon-ruins">Solaceon Ruins</option>
+        <option value="sinnoh-victory-road">Sinnoh Victory Road</option>
+        <option value="ravaged-path">Ravaged Path</option>
+        <option value="oreburgh-gate">Oreburgh Gate</option>
+        <option value="stark-mountain">Stark Mountain</option>
+        <option value="spring-path">Spring Path</option>
+        <option value="turnback-cave">Turnback Cave</option>
+        <option value="wayward-cave">Wayward Cave</option>
+    </select>
+
+    <button id="location-btn">Get Info!</button>
+</div>
+
+<span id="location-info"></span>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

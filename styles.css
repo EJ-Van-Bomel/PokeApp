@@ -1,0 +1,74 @@
+h1, h2, h3 {
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+    font-family: 'Roboto Mono', monospace;;
+    font-size: 4rem;
+    color: whitesmoke;
+
+}
+
+
+span {
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+    font-family: 'Roboto Mono', monospace;
+    color: whitesmoke;
+    font-size: .5rem;
+
+}
+#select-div, #item-div, #location-div {
+    display: flex;
+    justify-content:center;
+    gap:20px;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    padding: 20px 0px;
+}
+
+button {
+    background-color: darkcyan;
+    border: 2px solid black;
+    color:black;
+    padding: 5px 20px;
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color:black;
+    transition: .5s;
+    color: darkcyan;
+    padding: 5px 20px;
+    border-radius: 50%;
+}
+
+
+
+#image-grid, #item-grid, p, span{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0fr;
+    margin: 20px;
+ 
+}
+
+#getpoke, #item-btn, #location-btn {
+    border-radius: 20px ;
+}
+
+img {
+    margin: 20px; 
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 5px;
+    background-color: darkgray;
+    
+}
+
+#pokemon, #item-select, #location-select {
+    text-align: center;
+    height: 28px;
+    width: 150px;
+    padding: 0px 10px;
+}
+
+body {
+    background-color:darkslategray;
+}
